@@ -237,6 +237,8 @@ namespace Shared.DFe.Danfe
             relatorio.SetParameterValue("DecimaisValorUnitario", configuracaoDanfeNfe.DecimaisValorUnitario);
             relatorio.SetParameterValue("DecimaisQuantidadeItem", configuracaoDanfeNfe.DecimaisQuantidadeItem);
             relatorio.SetParameterValue("DataHoraImpressao", configuracaoDanfeNfe.DataHoraImpressao ?? DateTime.Now);
+            relatorio.SetParameterValue("EsconderValor", configuracaoDanfeNfe.EsconderValor);
+
 
             return relatorio;
         }
